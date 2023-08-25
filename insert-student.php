@@ -77,7 +77,7 @@ if (isset($_POST['submit'])) {
                 $caption1 = $_POST['caption'];
                 $link = $_POST['link'];
                 $str_arr = array_pop(explode(".", $name));
-                $name = $table.$student_grn . '.' . $str_arr;
+                $name = $table.'-'.$student_grn;
                 move_uploaded_file($temp, "files/student_photo/" . $name);
                 $path = $target_dir . $name;
                 $sql =  "UPDATE $table SET student_photo ='$path' WHERE student_id = '$id';";
