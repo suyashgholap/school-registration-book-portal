@@ -1,0 +1,45 @@
+@font-face {
+    font-family: dev;
+    src: url(TiroDevanagariMarathi-Regular.ttf);
+}
+*{
+    font-family: dev;
+}
+@media print{
+    @page {
+        size: landscape
+    }
+}
+.nirgam{
+    width: 29.7cm;
+    min-height: 20cm;
+    margin: 0cm auto;
+    border: 5px double black;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+.head{
+    word-spacing: 10px;
+}
+.nirgamtable table{
+    width: 100%; 
+    text-align: center;   
+}
+.nirgamtable table,
+.nirgamtable td,
+.nirgamtable tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.nirgamtable td{
+    width: 20px;
+}
+.nirgamtable .header td{    
+    transform: rotate(180deg);
+    word-wrap: none;
+    writing-mode: tb;
+}
+
+

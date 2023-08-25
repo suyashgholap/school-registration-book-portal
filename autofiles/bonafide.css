@@ -1,0 +1,79 @@
+@font-face {
+    font-family: dev;
+    src: url(TiroDevanagariMarathi-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: dev;
+    margin: 0;
+}
+
+.certdiv {
+    border-width: 45px;
+    border-style: solid;
+    border-image: url(borderbona.png) 35 round;
+}
+
+.certdiv {
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 2cm;
+    margin: 1cm auto;
+}
+
+.certdiv .header h1 {
+    margin: 0;
+    font-size: 45px;
+    text-align: center;
+}
+.certdiv .start h3 {
+    margin: 6px 0px;
+    font-size: 27px;
+}
+p{
+    margin: 4px 0px;
+    font-size: 25px;
+    word-spacing: 6px;
+}
+.centerdiv{
+    text-align: center;
+}
+.column {
+    float: left;
+}
+.start .jno{
+    width: 15%;
+}
+.start .from{
+    width: 85%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.body p{
+    word-spacing: 15px;
+    margin: 15px 0;
+    line-height: 45px;
+    text-align: justify;
+}
+.bodynotice p{
+    word-spacing: 15px;
+    margin: 15px 0;
+    line-height: 40px;
+    text-align: justify;
+    font-weight:bold;
+}
+.psign p{
+    word-spacing: 10px;
+    margin: 15px 0;
+    line-height: 29px;
+    text-align: left;
+    margin-left: 410px;
+    font-weight:bold;
+
+}

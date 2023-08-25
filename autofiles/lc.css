@@ -1,0 +1,99 @@
+@font-face {
+    font-family: dev;
+    src: url(TiroDevanagariMarathi-Regular.ttf);
+}
+*{
+    font-family: dev;
+}
+.lcdiv{
+    width: 21cm;
+    min-height: 29.7cm;
+    margin: 0cm auto;
+    border: 5px double black;
+}
+.tbl{
+    margin: 0 auto;
+    padding-left: 2cm;
+}
+.show {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.show td {
+    padding: 2px;
+}
+.udise{
+    border-collapse: collapse;
+}
+.fake{
+    padding-left: 150px;
+}
+.show1 {
+    border-collapse: collapse;
+    width: 100%;
+}
+.udise td{
+    border: 1px solid black;
+    padding: 3px 9px;
+}
+.headline{
+    background-color: rgb(215, 215, 215);
+    text-align: center;
+}
+.hr{
+    border-width: 0.1rem;
+    border-style:double;
+}
+.studtbl {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+.sign {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+.pad{
+    padding-right: 80px;
+}
+.padl{
+    padding-left: 20px;
+    padding-bottom: 0;
+}
+.left{
+    border-left: 1px solid;
+    padding: 2px;
+} 
+.right{
+    border-right: 1px solid;
+    padding: 2px;
+}
+.top{
+    border-top: 1px solid;
+    padding: 2px;
+}
+.bot{
+    border-bottom: 1px solid;
+    padding: 2px;
+}
+.studtbl td{
+    padding: 3px 0px 3px 5px;
+}
+.dob{
+    float: left;
+    margin-left: 2px;
+}
+.dob td{
+    padding: 3px 9px;
+    margin-right: 2px;
+}
+.warn{
+    font-size: 15px;
+    font-style: italic;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
