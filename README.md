@@ -372,8 +372,11 @@ To change the port in Skype:
 
 Now Skype and Apache can run at the same time on your workstation.
 
-## What's Next?
-
-Congrats! You've successfully installed XAMPP on Windows. The following steps
-are recommended to install additional *must-have* tools for the best possible
-development experience with PHP. Let's do that also.
+### Step 2
+1. Now move project folder to location xampp/htdocs
+2. Start XAMPP and go to phpmyadmin and create a database named "general"
+3. Now go to import
+4. Go to Assets folder and import the general.sql file
+5. Open localhost/general or your-ip/general to start software
+6. login by admin/admin go initial setup like school data, user data and book data
+7. Hence, General Book System is ready to use
